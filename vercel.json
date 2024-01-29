@@ -1,0 +1,18 @@
+{
+    "functions": {
+      "api/**/*.php": {
+        "runtime": "vercel-php@0.6.0"
+      }
+    },
+    "routes": [
+      { "src": "/(.*)",  "dest": "/api/index.php" },
+      { "src": "/(.*)",  "dest": "/api/logo.png" },
+      { "src": "/(.*)",  "dest": "/api/alto.php" },
+      { "src": "/(.*)",  "dest": "/api/bass.php" },
+      { "src": "/(.*)",  "dest": "/api/connection.php" },
+      { "src": "/(.*)",  "dest": "/api/record.php" },
+      { "src": "/(.*)",  "dest": "/api/soprano.php" },
+      { "src": "/(.*)",  "dest": "/api/submit.php" },
+      { "src": "/(.*)",  "dest": "/api/tenor.php" }
+     ]
+  }
