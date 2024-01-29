@@ -16,11 +16,11 @@ if ($conn->connect_error) {
 }
 
 // Get form data
-$fullname = $_POST['fullname'];
-$part = $_POST['part'];
-$gender = $_POST['gender'];
-$level = $_POST['level'];
-$phone = $_POST['phone'];
+//$fullname = $_POST['fullname'];
+//$part = $_POST['part'];
+//$gender = $_POST['gender'];
+//$level = $_POST['level'];
+//$phone = $_POST['phone'];
 
 
 //Soprano
