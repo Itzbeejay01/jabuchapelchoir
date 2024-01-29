@@ -9,16 +9,16 @@
    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://arena.mycredentials.ng/wp-content/uploads/2021/04/jabu.jpg" type="image/x-icon">
 </head>
-
 <body class="w-full h-full bg-gray-700 py-24 p-10 lg:px-96 lg:py-20">
     <div class="w-full h-full bg-white rounded py-16 p-8 shadow-md lg:w-full lg:flex lg:flex-col lg:py-20 lg:justify-center lg:items-center">
+        
         <div class="flex flex-col items-center">
-            <img class="w-24" src="https://arena.mycredentials.ng/wp-content/uploads/2021/04/jabu.jpg" alt="">
+            <img class="w-24" src="img/logo.png" alt="">
             <h2 class="text-xl text-slate-900 font-bold mb-2 text-center">JOSEPH AYO BABALOLA UNIVERSITY</h2>
             <h2 class="text-lg text-slate-900 mb-4 text-center">JABU CHAPEL CHOIR</h2>
         </div>
-        <form id="choirForm" method="post" action="submit.php" aria-busy="" class="w-full h-full pb-3 lg:px-14">
-        <div class="mb-4">
+        <form id="choirForm" method="post" action="submit.php" class="w-full h-full pb-3 lg:px-14">
+          <div class="mb-4">
             <input type="text" id="fullname" name="fullname" class="border-2 outline-none rounded-md form-input mt-1 p-2 w-full placeholder:text-gray-800"
                 placeholder="Fullname"  required>
           </div>
@@ -53,7 +53,7 @@
                     placeholder="Phone Number"  required>
               </div>
 
-            <button name="login" type="submit" class="w-full bg-blue-500 hover:bg-blue-900 text-white p-2 rounded shadow-lg font-bold text-lg hover:bg-slate-500 active:bg-slate-500">Submit</button>
+            <button name="login" type="submit" class="w-full bg-zinc-700 text-white p-2 rounded shadow-lg font-bold text-lg hover:bg-slate-500 active:bg-slate-500">Submit</button>
         </form>
     </div>
     <script>
