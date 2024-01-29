@@ -126,7 +126,7 @@ $conn->close();
 </head>
 </head>
 
-<body class="w-full h-full bg-gray-700 py-24 p-10 lg:px-96 lg:py-20">
+<body class="w-full h-full bg-black py-24 p-10 lg:px-96 lg:py-20">
     <div class="w-full h-full bg-white rounded py-16 p-8 shadow-md lg:w-full lg:flex lg:flex-col lg:py-20 lg:justify-center lg:items-center">
         <div class="flex flex-col items-center">
             <img class="w-24" src="https://arena.mycredentials.ng/wp-content/uploads/2021/04/jabu.jpg" alt="">
