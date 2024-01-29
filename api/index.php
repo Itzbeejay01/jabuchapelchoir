@@ -18,9 +18,7 @@
             <h2 class="text-xl text-slate-900 font-bold mb-2 text-center">JOSEPH AYO BABALOLA UNIVERSITY</h2>
             <h2 class="text-lg text-slate-900 mb-4 text-center">JABU CHAPEL CHOIR</h2>
         </div>
-        <form id="choirForm" method="post" aria-busy="" class="w-full h-full pb-3 lg:px-14">
-         <?php include 'connection.php';
-         include 'submit.php'; ?>  
+        <form id="choirForm" method="post" action="submit.php" aria-busy="" class="w-full h-full pb-3 lg:px-14">
         <div class="mb-4">
             <input type="text" id="fullname" name="fullname" class="border-2 outline-none rounded-md form-input mt-1 p-2 w-full placeholder:text-gray-800"
                 placeholder="Fullname"  required>
