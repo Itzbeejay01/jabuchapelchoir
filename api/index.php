@@ -9,7 +9,6 @@
    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
 <link rel="shortcut icon" href="https://arena.mycredentials.ng/wp-content/uploads/2021/04/jabu.jpg" type="image/x-icon">
 </head>
-</head>
 
 <body class="w-full h-full bg-gray-700 py-24 p-10 lg:px-96 lg:py-20">
     <div class="w-full h-full bg-white rounded py-16 p-8 shadow-md lg:w-full lg:flex lg:flex-col lg:py-20 lg:justify-center lg:items-center">
